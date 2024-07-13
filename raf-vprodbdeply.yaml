@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: sonako2000/raf-vprofile-db:latest
+          image: sonako2000/raf-vprofile-db
 #          args:
 #            - "--ingnore-db-dir=lost+found"
           volumeMounts:
